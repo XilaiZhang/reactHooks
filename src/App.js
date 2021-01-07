@@ -32,7 +32,7 @@ const options = [
     },
 ];
 
-export default ()=>{
+const App = ()=>{
     const[selected, setSelected] = useState(options[0]);
     // const[showDropdown, setShowDropdown] = useState(true);
 
@@ -68,3 +68,4 @@ export default ()=>{
     );
 };
 
+export default App;
